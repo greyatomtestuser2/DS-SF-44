@@ -17,7 +17,7 @@ All courses / in-person office hours will be held at GA, 225 Bush Street
 
 **[Course Project Information](projects/final-projects/project.md)**
 
-**[Course Project Examples](project-examples.md)**
+**[Course Project Examples](projects/project-examples.md)**
 
 Tuesday | Thursday | HW
 --- | --- | --- 
