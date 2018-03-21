@@ -33,7 +33,7 @@ Tuesday | Thursday | HW
 5/22: Deep Learning | 5/24: Final Presentations!!! | Final Project Pt. 5 Due (Th)
 
 ### Installation and Setup
-* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 3.6x.
+* Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
 * Once you receive an email invitation from [Slack](https://slack.com/), add your photo and join our team!
 
