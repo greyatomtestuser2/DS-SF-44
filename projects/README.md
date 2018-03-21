@@ -41,7 +41,7 @@ Each project includes objectives, requirements, starter-code, rubric, and sugges
 
 
 
-> We've also provided you with a [visual timeline for project due dates](../resources/instructor-resources/DS-project-due-dates.pdf).
+> We've also provided you with a [visual timeline for project due dates](../student-resources/ds-project-due-dates.pdf).
 
 
 ---
