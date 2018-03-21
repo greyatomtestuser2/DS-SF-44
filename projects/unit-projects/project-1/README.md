@@ -29,7 +29,7 @@ Note: You'll be working with two scenarios in this project and one dataset.
     - Articulate the risks and assumptions of this alternative model
 
 - **Submission:**
-    - TBD by Instructor 
+    - Class #3 - May 27th
 
 ---
 
