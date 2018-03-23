@@ -24,14 +24,6 @@ DS | Lesson 2
 - Create, open and create and iPython Notebook
 - Have completed python pre-work
 
-### INSTRUCTOR PREP
-*Before this lesson, instructors will need to:*
-
-- Review [Unit Project 1](../../projects/unit-projects/project-1/README.md)
-- Copy and modify the [lesson slide deck](./assets/slides/slides-2.md)
-- Add to the "Additional Resources" section for this lesson
-
-
 ### LESSON GUIDE
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
