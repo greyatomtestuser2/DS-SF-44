@@ -22,7 +22,7 @@ In this project, you will perform a logistic regression on the admissions data w
     - Brainstorm ways to improve your analysis
 
 - **Submission:**
-    - TBD by Instructor
+    - TBD by April 19th
 
 ---
 
