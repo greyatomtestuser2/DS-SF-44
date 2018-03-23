@@ -54,7 +54,6 @@ In order to pass this course, General Assembly students **must**:
 - Complete and submit the final project, including all 5 milestones.
 
 ### Grading & Using GitHub in the Classroom
-> The following recommendations assume instructors and students are all familiar with Github. If issues arise with assignment submission or grade release, alternative methods include using Dropbox or sending via email.
 
 Instructors should create their own fork from the baseline curriculum to host their tailored course materials. Students should in turn create their own individual course repositories to store notes and host graded assignments.
 
