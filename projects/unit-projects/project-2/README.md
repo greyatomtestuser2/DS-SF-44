@@ -31,7 +31,7 @@ Following these steps will help you better understand your dataset.
     - Advanced Option: Replace missing values using multiple imputation methods
 
 - **Submission:**
-    - Instructor TBD
+    - April 3rd
 
 ---
 
