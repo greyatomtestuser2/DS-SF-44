@@ -58,7 +58,6 @@ DS | Lesson 2
 
 Today we will focus on steps 1-2, and we will dive into steps 3-5 over the next few classes.
 
-
 <a name="introduction"></a>
 ## Intro: Asking a good question (10 mins)
 
@@ -89,13 +88,10 @@ Let's break this down further:
 <a name="demo1"></a>
 ## Demo: Diagraming an aim (5 mins)
 
-> Instructors: You do not need the actual dataset for this exercise.
-
 Example aim:
 Determine the association of foods in the home with child dietary intake. Using one 24-hour recall from the cross-sectional NHANES 2007-2010, we will determine the factors associated with food available in the homes of American children and adolescents. We will test if reported availability of fruits, dark green vegetables, low fat milk or sugar-sweetened beverages available in the home increases the likelihood that children and adolescents will meet their USDA recommended dietary intake for that food.
 
 Hypothesis: Children will be more likely to meet their recommended intake level when a food is always available in their home compared to rarely of never.
-> Source: From Dr. Amy Roberts' Dissertation
 
 1. Specific: Using **one 24-hour recall** from the cross-sectional National Health and Nutrition Examination Survey (NHANES) 2007-2010, we will determine the factors associated with food available in the homes of **American children and adolescents**. We will test if **self-reported availability of fruits, dark green vegetables, low fat milk or sugar-sweetened beverages available in the home increases** the likelihood that children and adolescents will meet their **USDA recommended dietary intake** for that food. Our hypothesis is that children will be **more likely to meet their recommended intake level when a food is** _always_ **available in their home** (compared to rarely or never).
     - How data was collected is indicated:
@@ -177,10 +173,10 @@ Looking at the data from Kaggle's Titanic competition, let's write a high qualit
     - A: cross-sectional
 
 2. Q: What will we be measuring (hint: look back at the previous example)
-    - A: The association between being a woman or a child and survival on the Titanic.
+    - A: The association between being a woman or a child and survival on the Titanic
 
 3. Q: Write out a SMART aim for this data:
-    - A: Using data from April 15, 1912, taken from the Titanic disaster, we will determine the association of gender, age (in years) and survival.
+    - A: Using data from April 15, 1912, taken from the Titanic disaster, we will determine the association of gender, age (in years) and survival
 
 <a name="review1"></a>
 ## SMART Review
@@ -225,7 +221,6 @@ Before and after you acquire your data, you also want to make sure you understan
 Data dictionaries are often our primary source to help judge the quality of our data and also to understand how it is coded. If our gender variables are coded 0 and 1, how do we know which is male and which is female? Your data dictionary! Is your currency variable coded in dollars or euros? Data dictionary!
 
 ##### Data Dictionary Examples
-> Instructor Note: Here you should show a few examples from Kaggle or your own work (i.e. the basic Titanic example from above or any more elaborate ones).
 
 Data dictionaries are also where you'll identify any requirements, assumptions, and constraints of your data. Note that you should never assume that a pre-existing data dictionary is complete. It is often going to be up to you to test your assumptions and add to your dictionary.
 
