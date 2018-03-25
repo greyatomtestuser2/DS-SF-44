@@ -8,3 +8,5 @@ Here are some useful materials- including prework, our course syllabus, the data
 - [Python Self-Assessment Quiz](./python-self-assessment.md)
 - [Data Science Workflow](./data-science-workflow-final.jpg)
 - [Data Science Vocabulary Guide](./ds-vocab.md)
+- [Textbooks (Supplemental)](textbooks.md)
+
