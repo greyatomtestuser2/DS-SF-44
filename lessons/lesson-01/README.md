@@ -316,7 +316,7 @@ Rotate through the groups to "collect the data" and record the raw data on white
 <a name="demo"></a>
 ## Demo: Dev Environment Setup (65 min)
 
-Walk through materials from [prework](../../resources/student-resources/ds-prework-student.md) and/or this [introductory dev workshop](./code/dev-environment.md)
+Walk through materials from [prework](../../student-resources/ds-prework-student.md) and/or this [introductory dev workshop](./code/dev-environment.md)
 
 * Brief intro to the tools we will use as data scientists
 * Workshop to help with environment set up
