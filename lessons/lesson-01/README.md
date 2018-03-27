@@ -24,15 +24,6 @@ DS | Lesson 1
 - Recall the Python syntax for lists, dictionaries, and functions
 - Create files and navigate directories using the command line interface (for your specific environment)
 
-### INSTRUCTOR PREP
-*Before this lesson, instructors will need to:*
-
-- Review course [syllabus](../../resources/instructor-resources/ds-syllabus.pdf) and [lesson structure](../README.md)
-- Read through our [lesson preparation guide](../../resources/instructor-resources/instructor-prep.md)
-- Review Unit 1 [projects](../../projects/README.md)
-- Add to the "Additional Resources" section for this lesson
-- Copy and modify the [lesson slide deck](./assets/slides/slides-1.md)
-
 ### LESSON GUIDE
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
@@ -48,8 +39,6 @@ DS | Lesson 1
 
 <a name="opening"></a>
 ## Welcome to GA! (20 mins)
-
-> Instructor Note: Use the "Day 1 deck" from your local production team
 
 #### GA is a special learning environment
 
@@ -75,7 +64,7 @@ DS | Lesson 1
 - A interdisciplinary, problem-solving oriented subject
 - Application of scientific techniques to practical problems
 
-![Data Science venn diagram](./assets/images/datascience-vd.png)
+![Data Science venn diagram](./images/datascience-vd.png)
 
 
 #### Who uses Data Science
@@ -96,7 +85,7 @@ DS | Lesson 1
 * Data Creative
 * Data Businessperson
 
-![Data Science Roles](./assets/images/datascienceroles.jpg)
+![Data Science Roles](./images/datascienceroles.jpg)
 
 
 **Skills:**
@@ -107,22 +96,20 @@ DS | Lesson 1
 * Programming
 * Stats
 
-![Data Science Skills](./assets/images/datasci-skills.jpg)
+![Data Science Skills](./images/datasci-skills.jpg)
 
 **Break down of skills by role:**
 
-![Data Science Skills by Role](./assets/images/datasci-skills-by-role.jpg)
+![Data Science Skills by Role](./images/datasci-skills-by-role.jpg)
 
 ***
 
 <a name="quiz"></a>
 ## Quiz: Data Science Baseline (10 Min)
 
-> Instructor Note: This quiz is intended as a helpful gauge of your students' background knowledge in data science related topics. It asks them questions on topics they haven't learned yet to estimate their prior knowledge and give you a chance to tailor materials accordingly (and correct misconceptions, etc). You are welcome to substitute or modify this quiz further as you see fit.
-
 #### Quiz
 1. True or False: Gender (coded: male= 0 female= 1) is a continuous variable
-2. According to [this table](./assets/images/Table.png), BMI is the _____
+2. According to [this table](./images/Table.png), BMI is the _____
 
 	* Outcome
 	* Predictor
@@ -130,8 +117,6 @@ DS | Lesson 1
 3. Draw a normal distribution.
 4. True or False: Linear regression is an unsupervised learning algorithm.
 5. What is a hypothesis test?
-
-> Instructor Note: Discuss results
 
 ***
 
@@ -307,8 +292,6 @@ For example, after presenting your findings, you may want to:
 ## Practice: Data Science Work Flow (25 mins)
 Use three of the steps from the Data Science Workflow (identify, acquire, present) to get to know your classmates!
 
-> Students should get into 4 groups, spaced at the whiteboards around the room.
-
 #### IDENTIFY: Understand the problem
 Have each group develop 1 research question that they would like to know about the class and make a hypothesis.
 > Note: Don't share these questions with the class just yet!
@@ -322,8 +305,6 @@ Examples:
 #### ACQUIRE: Obtain the data
 Rotate through the groups to "collect the data" and record the raw data on white boards.
 
-> Suggest students create an easy visual way for the other students to write their answers, or an option quickly to save time.
-
 #### PRESENT: Communicate the results of your analysis  
 
 - Summarize findings in a narrative
@@ -335,7 +316,7 @@ Rotate through the groups to "collect the data" and record the raw data on white
 <a name="demo"></a>
 ## Demo: Dev Environment Setup (65 min)
 
-> Instructor Note: Walk through materials from [prework](../../resources/student-resources/ds-prework-student.md) and/or this [introductory dev workshop](./code/dev-environment.md)
+Walk through materials from [prework](../../resources/student-resources/ds-prework-student.md) and/or this [introductory dev workshop](./code/dev-environment.md)
 
 * Brief intro to the tools we will use as data scientists
 * Workshop to help with environment set up
@@ -357,8 +338,3 @@ By now, you should be able to answer the following questions with ease:
 |   |   |
 |---|---|
 | **UPCOMING PROJECTS**  | [Project 1 Instructions](../../projects/unit-projects/project-1/README.md)  |
-
-### ADDITIONAL RESOURCES
-- Add your own resources.
-- Go crazy.
-- So much room for bullets!
