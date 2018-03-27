@@ -139,7 +139,7 @@ Throughout the class and for the our projects we will be following a general wor
 7. Present
 
 
-![Data Science Workflow Visual](./assets/images/data-science-workflow-final.jpg)
+![Data Science Workflow Visual](./images/data-science-workflow-final.jpg)
 
 
 ### Project 1: [Futurama Example](../../projects/unit-projects/project-1/assets/project1-example.ipynb)
