@@ -49,7 +49,7 @@ DS | Lesson 4
 Today we will use advertising data from an example in
 [An Introduction to Statistical Learning by Gareth James](http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv).
 
-> Instructor Note: This is used in the demo and can be downloaded directly from the website by running that specific cell of [demo-starter notebook](./code/demo-starter-code-4.ipynb). No other files are needed.  
+> This is used in the demo and can be downloaded directly from the website by running that specific cell of [demo-starter notebook](./code/demo-starter-code-4.ipynb). No other files are needed.  
 
 
 <a name="introduction"></a>
@@ -58,17 +58,17 @@ If an association is observed, the first question to ask should always be… is 
 
 Just think of all the times you've seen press about foods being good for you then being terrible for you.
 
-![Coffee & Cancer](./assets/images/caffeine-not-causal.png)
+![Coffee & Cancer](./images/caffeine-not-causal.png)
 
 
 Why is this? The first reason might simply be sensational headlines. But the other issue is the neglecting robust data analysis and lacking an understanding of the difference between *causation* and *correlation*.
 
 
-![Alcohol & Dementia](./assets/images/alcohol-not-causal.png)
+![Alcohol & Dementia](./images/alcohol-not-causal.png)
 
 Understanding these differences is critical, especially at the beginning of the data science workflow, while **Identifying** and **Acquiring** data.
 
-We need to make sure that we fully articulate our question and use the right data to answer it, including any potential *confounders*.
+We need to make sure that we fully articulate our question and use the right data to answer it, including any potential *confounding variables*.
 
 Additionally, this topic comes up again during the final step in our data science workflow, when we **Present** our results to stakeholders.
 
@@ -83,15 +83,15 @@ Causal criteria is one approach to assessing causal relationships, but it's very
 
 One such attempt that is commonly used in the medical/health sciences fields is based on work by Bradford Hill. He developed a list of "tests" that an analysis much pass in order to indicate a causal relationship. These requirements include:
 
-1. Strength of association
-2. Consistency
-3. Specificity
-4. Temporality
-5. Biological gradient
-6. Plausibility
-7. Coherence
-8. Experiment
-9. Analogy
+1.  Temporal Relationship
+2.  Strength
+3.  Dose-Response Relationship
+4.  Consistency
+5.  Plausibility
+6.  Alternate Explanations
+7.  Experiment
+8.  Specificity 
+9.  Coherence
 
 This is by no means an exhaustive checklist, but it's useful for understanding that your predictor/exposure **must have occurred before your outcome**. For example, in order for smoking to cause cancer, one must have started smoking prior to getting cancer.
 
@@ -110,7 +110,7 @@ Often times, the observation that we observe may be influenced by another *confo
 
 Let's say we did an analysis to understand what causes lung cancer. We find a strong association between carrying cigarette lighters and lung cancer.
 
-![Lighters & Cancer](./assets/images/smoking-DAG.png)
+![Lighters & Cancer](./images/smoking-DAG.png)
 
 In fact, people who carry cigarette lighters are 2.4 times as likely to contract lung cancer as people who don’t carry lighters. However, does this mean that the lighters are causing lung cancer? No.
 
@@ -121,7 +121,7 @@ variables are most important for your model.
 
 A DAG always includes at least one exposure/predictor and one outcome. For example:
 
-![TV Sales DAG](./assets/images/sales-tv-model-output.png)
+![TV Sales DAG](./images/sales-tv-model-output.png)
 
 Here the exposure/predictor is TV ads and it is associated with an outcome, sales. We can measure the strength to demonstrate a strong association between tv ads and sales.
 
