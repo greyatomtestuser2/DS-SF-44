@@ -136,9 +136,6 @@ Let's say we want to evaluate which type of ad is associated with higher sales.
 
 Great- let's take a look at the association between TV Ads and Sales by taking into account *seasonality*.
 
-On a DAG this would look something like a triangle between:  
-`TV--> Sales and seasonality --> TV Ads and seasonality --> Sales`
-
 Let's assume that the TV ads were run in November/December (right before holiday gift season) while the Google ads were run during February & March (when sales are historically low).
 
 If we compare TV and Google Ads but don't take into account seasonality, then we are likely to make the wrong conclusion. In this case, we might assume that Google ads are not as effective at driving sales as tv ads, but this would be an example of *bias* and *confounding*.
