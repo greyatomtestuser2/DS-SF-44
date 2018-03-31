@@ -24,14 +24,14 @@ Tuesday | Thursday | HW
 --- | --- | --- 
 3/20: Introduction / Expectations / Intro to Data Science | 3/22: Numpy & Pandas | HW 1 Assigned (Tues)
 3/27: Statistics Fundamentals I | 3/29: Statistics Fundamentals II | HW 1 Due & HW 2 Assigned (Tues)
-4/3: Flex Session | 4/5: Introduction to Linear Regression | HW 2 Due & HW 3 Assigned (Tues)
+4/3: Data Science Toolkit | 4/5: Introduction to Linear Regression | HW 2 Due & HW 3 Assigned (Tues)
 4/10: Evaluating Model Fit | 4/12: Intro to classification | Final Project Pt. 1 Due & Final Project Pt. 2 Assigned (Th)
 4/17: Intro to Logistic Regression | 4/19: Communicating the Results of Logistic Regression  | HW 4 Assigned (Tues) & HW 3 Due (Th)
-4/24: Flex Session  | 4/26: Decision Trees | Project Proposal due & HW 4 Due (Th)
-5/1: NLP with Classification | 5/3: Dimensionality Reduction | Final Project Pt. 2 Due & Final Project Pt. 3 Assigned (Th)
-5/8: Time-series Data | 5/10: Models with Time-series Data | Final Project Pt. 3 Due & Final Project Pt. 4 Assigned (Th)
-5/15: The Value of Data-bases | 5/17: Next Steps with Data Science | Final Project Pt. 4 Due & Final Project Pt. 5 Assigned (Th)
-5/22: Deep Learning | 5/24: Final Presentations!!! | Final Project Pt. 5 Due (Th)
+4/24: Clustering  | 4/26: Decision Trees | Project Proposal due & HW 4 Due (Th)
+5/1: NLP with Classification | 5/3: Latent Variable Models | Final Project Pt. 2 Due & Final Project Pt. 3 Assigned (Th)
+5/8: Time-series Data | 5/10: Modeling Time-series Data | Final Project Pt. 3 Due & Final Project Pt. 4 Assigned (Th)
+5/15: Databases | 5/17: Next Steps with Data Science | Final Project Pt. 4 Due & Final Project Pt. 5 Assigned (Th)
+5/22: Neural Networks | 5/24: Final Presentations!!! | Final Project Pt. 5 Due (Th)
 
 ### Installation and Setup
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.
