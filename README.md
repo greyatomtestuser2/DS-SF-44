@@ -1,4 +1,5 @@
-# DS-SF-44 Course Repository
+![DS-SF-44 Course Repository](./ds-sf-44_logo.png)
+
 Course materials for General Assembly's Data Science course in San Francisco (3/20/18 - 5/24/18)
 
 **Instructor:** [Adam Jones](https://www.linkedin.com/in/adam-p-jones/)
