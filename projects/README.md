@@ -3,7 +3,6 @@
 > Globally, we have 4 Unit Projects and 1 Final Project (subdivided into 5 deliverables). Each builds on top of previously learned skills to scaffold student performance over the entire course.
 
 ![Course Overview - Projects](../student-resources/course_overview-projects.png)
-
 ## Project Specs
 
 Each project includes objectives, requirements, starter-code, rubric, and suggested resources - all of which tie into the overall competencies for each unit. Dive into the detailed project spec files to read more about each project.
