@@ -32,8 +32,8 @@ You'll get the opportunity to get immediate feedback and guidance in order to he
     - Cite similar/previous work that will better inform your strategy that can be taken
 
 - **Submission:**	
+    * Submit presentation to instructor via email __before class__
     * Present materials in class
-    * Submit presentation to instructor via email.
 
 ---
 
