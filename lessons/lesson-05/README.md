@@ -22,8 +22,7 @@ DS | Lesson 5
 - Explain the difference between variance and bias  
 - Use descriptive stats to understand your data
 
-> A notebook of [data visualization exercises](./code/extra/Data Visualization Lab.ipynb
-) is available in the class repo.
+> A notebook of [data visualization exercises](./code/extra/data_visualization_lab.ipynb) is available in the class repo.
 
 ### LESSON GUIDE
 
@@ -152,7 +151,7 @@ Ok! That was a lot of material. Let's review.
 
 
 <a name="#lab1"></a>
-## Independent Practice- GIT and Command Line (50 min)
+## Independent Practice- GIT (20 min)
 - [Github Challenges](https://try.github.io)
 
 <a name="intro4"></a>
