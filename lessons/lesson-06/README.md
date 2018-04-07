@@ -28,8 +28,7 @@ DS | Lesson 6
 - Be able to interpret p values and confidence intervals
 
 
-> A notebook of [linear regression examples](./code/extra/Linear Regression with Statsmodels and Scikit-Learn.ipynb
-) is available, using both statsmodels and scikit-learn, including quadratic and exponential regressions.
+> A notebook of [linear regression examples](./code/extra/linear_regression_with_statsmodels_and_scikit-learn.ipynb) is available, using both statsmodels and scikit-learn, including quadratic and exponential regressions.
 
 ### LESSON GUIDE
 | TIMING  | TYPE  | TOPIC  |
