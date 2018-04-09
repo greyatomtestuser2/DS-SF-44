@@ -1,5 +1,7 @@
 # DS-SF-44 Pre-work Summary
 
+__Note:__ Make sure you have completed ALL of the [course-assigned prework](../ds-prework-student.md) before completing the following exercises for each session.
+
 Class | Pre-work (be able to...)
 --- | ---
 3/20: Intro to Data Science | - [Define basic data types used in object-oriented programming](https://www.computerhope.com/jargon/d/datatype.htm) <br /> - [Recall the Python syntax for lists, dictionaries, and functions](http://thomas-cokelaer.info/tutorials/python/data_structures.html) <br /> - [Create files and navigate directories using the command line interface](https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command)
