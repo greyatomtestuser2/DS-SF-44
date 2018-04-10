@@ -1,6 +1,6 @@
 # DS-SF-44 Pre-work Summary
 
-#### Note: Make sure you have completed *ALL* of the [assigned pre-work](../ds-prework-student.md) before completing the following exercises for each session.
+#### Note: Make sure you have completed *ALL* of the [assigned pre-work](../ds-prework-student.md) before completing the following exercises for each session
 
 Class | Pre-work (be able to...)
 --- | ---
