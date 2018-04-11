@@ -9,7 +9,7 @@ One of the best ways to test expectations and get feedback is to share your idea
 
 You'll get the opportunity to get immediate feedback and guidance in order to help you choose an awesome final project idea. Keep in mind that it's important to run though this ideation process a few times with different ideas to clarify what your project should focus on. 
 
-**Goal**: Prepare a one-minute lightning talk that covers 3 potential project topics.
+**Goal**: Prepare a 2-3 minute lightning talk that covers 3 potential project topics.
 
 ---
 
@@ -26,6 +26,7 @@ You'll get the opportunity to get immediate feedback and guidance in order to he
     * Explain three potential projects, including: a problem statement, a hypothesis, and potential data sets
     * Be 2-3 minutes in duration
     * Demonstrate familiarity with the domain of the data
+    * Give feedback on others' presentations via [form](https://goo.gl/forms/kQAvespOw7sNKIKC3). 
 
 - **Bonus:**
     - High level data points can help show the "improvement" scope that's available
