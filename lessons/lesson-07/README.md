@@ -138,7 +138,7 @@ print metrics.mean_squared_error(df['y'], lm.predict(df[['x']]))
 
 - Biased fit:
 lm = linear_model.LinearRegression().fit(biased_df[['x']], biased_df['y'])
-print metrics.mean_squared_error(df['y'], lm.predict(df[['x']]))
+print metrics.mean_squared_error(biased_df['y'], lm.predict(biased_df[['x']]))
 ```
 
 
