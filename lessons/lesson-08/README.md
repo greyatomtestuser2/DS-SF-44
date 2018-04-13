@@ -112,8 +112,8 @@ import pandas as pd
 iris = datasets.load_iris()
 irisdf = pd.DataFrame(iris.data, columns=iris.feature_names)
 irisdf['target'] = iris.target
-cmap = {'0': 'r', '1': 'g', '2': 'b' }
-irisdf['ctarget'] = irisdf.target.apply(lambda x: cmap[str(x)])
+cmap = {0: 'r', 1: 'g', 2: 'b' }
+irisdf['ctarget'] = irisdf.target.apply(lambda x: cmap[x])
 irisdf.plot('petal length (cm)', 'petal width (cm)', kind='scatter', c=irisdf.ctarget)
 print irisdf.plot('petal length (cm)', 'petal width (cm)', kind='scatter', c=irisdf.ctarget)
 print irisdf.describe()
