@@ -265,7 +265,7 @@ gs.grid_scores_
 
 ***
 
-### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| **UPCOMING PROJECTS**  | [Final Project, Deliverable 1](../../projects/final-projects/01-lightning-talk/README.md)  |
+| **UPCOMING PROJECTS**  | [Unit Project 3](../../projects/unit-projects/project-3/README.md) **Due:** April 19th  | 
+
