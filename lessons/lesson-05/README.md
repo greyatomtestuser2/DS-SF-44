@@ -174,6 +174,7 @@ How proficient are you with statistical odds? Let's review some quick basics abo
 ***
 
 ### ADDITIONAL RESOURCES
-**Alternative Resources:**
+
 - [Python the Hard Way](http://learnpythonthehardway.org/book/appendixa.html)
 - [Codecademy Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+- [Basics of SSH (video)](https://www.youtube.com/watch?v=rfYZR6opTVg)

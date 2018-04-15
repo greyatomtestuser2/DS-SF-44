@@ -90,7 +90,7 @@ One such attempt that is commonly used in the medical/health sciences fields is 
 5.  Plausibility
 6.  Alternate Explanations
 7.  Experiment
-8.  Specificity 
+8.  Specificity
 9.  Coherence
 
 This is by no means an exhaustive checklist, but it's useful for understanding that your predictor/exposure **must have occurred before your outcome**. For example, in order for smoking to cause cancer, one must have started smoking prior to getting cancer.
@@ -232,3 +232,8 @@ You will also get practice looking at the output and understanding how the model
 |   |   |
 |---|---|
 | **UPCOMING PROJECTS**  | [Unit Project 2](../../projects/unit-projects/project-2/README.md)  |
+
+
+### ADDITIONAL RESOURCES
+
+- https://www.r-bloggers.com/multicollinearity-in-r/

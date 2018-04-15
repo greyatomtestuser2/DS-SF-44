@@ -322,3 +322,4 @@ We can do this in pandas with the "get_dummies" method. Let's check it out in pr
 ### ADDITIONAL RESOURCES
 - [Fundamental Statistics](https://sites.google.com/site/fundamentalstatistics/chapter1)
 - [Online Statistics Fundamentals](http://onlinestatbook.com/2/)
+- [Review of population/sample standard deviation](https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review)

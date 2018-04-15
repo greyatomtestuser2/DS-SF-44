@@ -487,3 +487,8 @@ print gs.grid_scores_
 |   |   |
 |---|---|
 | **UPCOMING PROJECTS**  |[Final Project, Deliverable 1](../../projects/final-projects/01-lightning-talk/README.md)  |
+
+
+### ADDITIONAL RESOURCES
+
+- https://www.r-bloggers.com/machine-learning-explained-regularization/
