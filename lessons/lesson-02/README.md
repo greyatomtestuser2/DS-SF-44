@@ -83,7 +83,7 @@ Let's break this down further:
 4. Reproducible: Another person (or you in 6 months!) can read your state and understand exactly how your analysis is performed
 5. Time-bound: You clearly state the time period and population for which this analysis will pertain
 
-![](./assets/images/smart-goal-image.jpg)
+![](./images/smart-goal-image.jpg)
 
 <a name="demo1"></a>
 ## Demo: Diagraming an aim (5 mins)
@@ -156,7 +156,7 @@ As we saw in the attainable section, different types of data have different limi
 
 #### Knowledge Check
 
-- What type of data is the [flight_delay data](../lesson-02/datasets/flight_delays.csv)?
+- What type of data is the [flight_delay data](./code/datasets/flight_delays.csv)?
 - Determine if the day of the week and departure airport location is associated with delayed take-off time using data from flightstats.com from January 2015- December 2015.
 - Can you create a cross-sectional analysis from a longitudinal data collection? How?
 
@@ -229,7 +229,7 @@ Data dictionaries are also where you'll identify any requirements, assumptions, 
 
 <a name="codealong"></a>
 ## Codealong- Numpy and Pandas intro (30 minutes)
-> See [NumPy & Pandas notebook](./code/numpy-and-pandas.ipynb)
+> See [NumPy & Pandas notebook](./code/extra/numpy-and-pandas.ipynb)
 
 What is Numpy and Pandas?
 Pandas is built on Python. In Numpy, we use arrays. With arrays you can do:
