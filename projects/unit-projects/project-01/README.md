@@ -47,7 +47,7 @@ Your project will be assessed using the following standards:
 
 1. Identify the Problem
 
-#### Rubric: [Click here for the complete rubric](./project1-rubric.md). 
+#### Rubric: [Click here for the complete rubric](./project-01-rubric.md). 
 
 Requirements for these standards will be assessed using the scale below:
 
@@ -72,17 +72,17 @@ We'll be using the same dataset as UCLA's Logistic Regression in R tutorial to e
 - 'gpa' stands for Grade Point Average
 - 'rank' is the rank of an applicant's undergraduate alma mater, with 1 being the highest and 4 as the lowest
 
-Dataset: [Admissions.csv](./assets/admissions.csv)
+Dataset: [Admissions.csv](./datasets/admissions.csv)
 
 #### Starter code
 For this project we will be using an iPython notebook. Notebooks are a handy way to communicate your research with your team and share your analysis. Using markup syntax will allow you create more visually appealing notebooks.
 
-* Open the [starter code instructions](./starter-code/project1-starter.ipynb) in iPython notebook.
+* Open the [starter code instructions](./project-01-starter.ipynb) in iPython notebook.
 
 #### Sample Deliverables 
 Check out the example notebook in our starter code, which includes a data dictionary and responses to questions. Wonder how to format your notebook the same way? Simply double-click on any section to view the markdown.
 
-![Example Notebook](./assets/images/Example_ipynb.jpg)
+![Example Notebook](../images/Example_ipynb.jpg)
 
 #### Suggestions for Getting Started 
 
