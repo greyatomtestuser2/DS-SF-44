@@ -308,7 +308,7 @@ We can do this in pandas with the "get_dummies" method. Let's check it out in pr
 <a name="wrapup"></a>
 ## Project questions and Next Project (15 mins)
 
-> - Review [Project 1](../../projects/unit-projects/project-1/README.md)
+> - Review [Project 1](../../projects/unit-projects/project-01/README.md)
 > - Introduce the next project
 > - Exit tickets
 
@@ -317,7 +317,7 @@ We can do this in pandas with the "get_dummies" method. Let's check it out in pr
 ### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| **PROJECT 2** | [Unit Project 2](../../projects/unit-projects/project-2/README.md)   |
+| **PROJECT 2** | [Unit Project 2](../../projects/unit-projects/project-02/README.md)   |
 
 ### ADDITIONAL RESOURCES
 - [Fundamental Statistics](https://sites.google.com/site/fundamentalstatistics/chapter1)
