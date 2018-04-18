@@ -231,7 +231,7 @@ You will also get practice looking at the output and understanding how the model
 ### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| **UPCOMING PROJECTS**  | [Unit Project 2](../../projects/unit-projects/project-2/README.md)  |
+| **UPCOMING PROJECTS**  | [Unit Project 2](../../projects/unit-projects/project-02/README.md)  |
 
 
 ### ADDITIONAL RESOURCES
