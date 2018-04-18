@@ -82,7 +82,7 @@ For this project we will be using an iPython notebook. Notebooks are a handy way
 #### Sample Deliverables 
 Check out the example notebook in our starter code, which includes a data dictionary and responses to questions. Wonder how to format your notebook the same way? Simply double-click on any section to view the markdown.
 
-![Example Notebook](../images/Example_ipynb.jpg)
+![Example Notebook](./images/Example_ipynb.jpg)
 
 #### Suggestions for Getting Started 
 
