@@ -323,7 +323,7 @@ For example: "My model on average performs at x rate, but the features under-per
 ### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| Upcoming Projects | [Unit Project 4](../../projects/unit-projects/project-4/README.md)
+| Upcoming Projects | [Unit Project 4](../../projects/unit-projects/project-04/README.md)
 
 ### ADDITIONAL RESOURCES
 
