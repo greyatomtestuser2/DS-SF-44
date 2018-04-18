@@ -46,7 +46,7 @@ Your project will be assessed using the following standards:
 1. Present Results
 2. Professional Development
 
-#### Rubric: [Click here for the complete rubric](./project4-rubric.md).
+#### Rubric: [Click here for the complete rubric](./project-04-rubric.md).
 
 Requirements for these standards will be assessed using the scale below:
 
@@ -71,10 +71,10 @@ We'll be using the same dataset as UCLA's Logistic Regression in R tutorial to e
 - 'gpa' stands for Grade Point Average
 - 'rank' is the rank of an applicant's undergraduate alma mater, with 1 being the highest and 4 as the lowest
 
-Dataset: [Admissions.csv](./assets/admissions.csv)
+Dataset: [Admissions.csv](./datasets/admissions.csv)
 
 #### Starter code
-Open the [iPython Notebook](./starter-code/project4-starter.ipynb) and follow the questions provided.
+Open the [iPython Notebook](./project-04-starter.ipynb) and follow the questions provided.
 
 #### Suggestions for Getting Started
 
