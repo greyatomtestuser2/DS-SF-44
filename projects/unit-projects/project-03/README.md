@@ -40,7 +40,7 @@ Your project will be assessed using the following standards:
 
 1. Refine the Data
 
-#### Rubric: [Click here for the complete rubric](./project-03-rubric.md). 
+#### Rubric: [Click here for the complete rubric](./project-03-rubric.md)
 
 Requirements for these standards will be assessed using the scale below:
 
