@@ -327,6 +327,6 @@ For example: "My model on average performs at x rate, but the features under-per
 
 ### ADDITIONAL RESOURCES
 
-- [http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html](Pandas plotting)
-- [http://matplotlib.org/users/text_intro.html](Text with matplotlib)
-- [https://github.com/WeatherGod/AnatomyOfMatplotlib](Anatomy of Matplotlib)
+- [Pandas plotting](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html)
+- [Text with matplotlib](http://matplotlib.org/users/text_intro.html)
+- [Anatomy of Matplotlib](https://github.com/WeatherGod/AnatomyOfMatplotlib)
