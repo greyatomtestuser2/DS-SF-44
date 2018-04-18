@@ -68,7 +68,7 @@ We'll be using the same dataset as UCLA's Logistic Regression in R tutorial to e
 Dataset: [Admissions.csv](./datasets/admissions.csv)
 
 #### Starter code
-Review the questions in the [iPython Notebook](./project3-starter.ipynb) provided.
+Review the questions in the [iPython Notebook](./project-03-starter.ipynb) provided.
 
 #### Suggestions for Getting Started
 - Review logistic regression, odds ratios and probabilities from prior lessons.
