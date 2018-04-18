@@ -49,7 +49,7 @@ Your project will be assessed using the following standards:
 
 1. Parse the Data
 
-#### Rubric: [Click here for the complete rubric](./project2-rubric.md).
+#### Rubric: [Click here for the complete rubric](./project-02-rubric.md).
 
 Requirements for these standards will be assessed using the scale below:
 
@@ -74,12 +74,12 @@ We'll be using the same dataset as UCLA's Logistic Regression in R tutorial to e
 - 'gpa' stands for Grade Point Average
 - 'rank' is the rank of an applicant's undergraduate alma mater, with 1 being the highest and 4 as the lowest
 
-Dataset: [Admissions.csv](./assets/admissions.csv)
+Dataset: [Admissions.csv](./datasets/admissions.csv)
 
 #### Starter code
 For this project we will be using an IPython notebook. This notebook will use matplotlib for plotting and visualizing our data. This type of visualization is handy for prototyping and quick data analysis. We will discuss more advanced data visualizations for disseminating your work.
 
-* Open the [starter code instructions](./starter-code/project2-starter.ipynb) in IPython notebook.
+* Open the [starter code instructions](./project2-starter.ipynb) in IPython notebook.
 
 #### Suggestions for Getting Started
 
