@@ -156,7 +156,7 @@ As we saw in the attainable section, different types of data have different limi
 
 #### Knowledge Check
 
-- What type of data is the [flight_delay data](../lesson-02/dataset/flight_delays.csv)?
+- What type of data is the [flight_delay data](../lesson-02/datasets/flight_delays.csv)?
 - Determine if the day of the week and departure airport location is associated with delayed take-off time using data from flightstats.com from January 2015- December 2015.
 - Can you create a cross-sectional analysis from a longitudinal data collection? How?
 
@@ -280,7 +280,7 @@ The purpose of this lab is to get some practice working with Pandas. We will div
 ### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| **UPCOMING PROJECTS** | [Unit Project 1](../../projects/unit-projects/project-1/README.md) |
+| **UPCOMING PROJECTS** | [Unit Project 1](../../projects/unit-projects/project-01/README.md) |
 
 
 
