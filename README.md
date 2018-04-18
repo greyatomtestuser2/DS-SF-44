@@ -22,11 +22,11 @@ All courses / in-person office hours will be held at GA, 225 Bush Street
 
 Tuesday | Thursday | HW
 --- | --- | --- 
-3/20: Introduction / Expectations / Intro to Data Science | 3/22: Numpy & Pandas | HW 1 Assigned (Tues)
-3/27: Statistics Fundamentals I | 3/29: Statistics Fundamentals II | HW 1 Due & HW 2 Assigned (Tues)
-4/3: Data Science Toolkit | 4/5: Introduction to Linear Regression | HW 2 Due & HW 3 Assigned (Tues)
-4/10: Evaluating Model Fit | 4/12: Intro to classification | Final Project Pt. 1 Due & Final Project Pt. 2 Assigned (Th)
-4/17: Intro to Logistic Regression | 4/19: Communicating the Results of Logistic Regression  | HW 4 Assigned (Tues) & HW 3 Due (Th)
+3/20: [Introduction / Expectations / Intro to Data Science](./lessons/lesson-01/README.md) | 3/22: [Numpy & Pandas](./lessons/lesson-02/README.md) | HW 1 Assigned (Tues)
+3/27: [Statistics Fundamentals I](./lessons/lesson-03/README.md) | 3/29: [Statistics Fundamentals II](./lessons/lesson-04/README.md) | HW 1 Due & HW 2 Assigned (Tues)
+4/3: [Data Science Toolkit](./lessons/lesson-05/README.md) | 4/5: [Introduction to Linear Regression](./lessons/lesson-06/README.md) | HW 2 Due & HW 3 Assigned (Tues)
+4/10: [Evaluating Model Fit](./lessons/lesson-07/README.md) | 4/12: [Intro to classification](./lessons/lesson-08/README.md) | Final Project Pt. 1 Due & Final Project Pt. 2 Assigned (Th)
+4/17: [Intro to Logistic Regression](./lessons/lesson-09/README.md) | 4/19: [Communicating the Results of Logistic Regression](./lessons/lesson-10/README.md)  | HW 4 Assigned (Tues) & HW 3 Due (Th)
 4/24: Clustering  | 4/26: Decision Trees | Project Proposal due & HW 4 Due (Th)
 5/1: NLP with Classification | 5/3: Latent Variable Models | Final Project Pt. 2 Due & Final Project Pt. 3 Assigned (Th)
 5/8: Time-series Data | 5/10: Modeling Time-series Data | Final Project Pt. 3 Due & Final Project Pt. 4 Assigned (Th)
