@@ -337,4 +337,4 @@ By now, you should be able to answer the following questions with ease:
 ### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| **UPCOMING PROJECTS**  | [Project 1 Instructions](../../projects/unit-projects/project-1/README.md)  |
+| **UPCOMING PROJECTS**  | [Project 1 Instructions](../../projects/unit-projects/project-01/README.md)  |
