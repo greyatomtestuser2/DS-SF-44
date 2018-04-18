@@ -79,7 +79,7 @@ Dataset: [Admissions.csv](./datasets/admissions.csv)
 #### Starter code
 For this project we will be using an IPython notebook. This notebook will use matplotlib for plotting and visualizing our data. This type of visualization is handy for prototyping and quick data analysis. We will discuss more advanced data visualizations for disseminating your work.
 
-* Open the [starter code instructions](./project2-starter.ipynb) in IPython notebook.
+* Open the [starter code instructions](./project-02-starter.ipynb) in IPython notebook.
 
 #### Suggestions for Getting Started
 
