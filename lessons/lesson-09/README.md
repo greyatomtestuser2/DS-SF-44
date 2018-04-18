@@ -245,7 +245,7 @@ For each of the following examples:
 ### BEFORE NEXT CLASS
 |   |   |
 |---|---|
-| **DUE THURSDAY**  | [Project 3](../../projects/unit-projects/project-3/README.md)  |
+| **DUE THURSDAY**  | [Project 3](../../projects/unit-projects/project-03/README.md)  |
 
 ### ADDITIONAL RESOURCES
 - [Logistic Regression in Python](http://blog.yhat.com/posts/logistic-regression-and-python.html)
