@@ -267,5 +267,5 @@ gs.grid_scores_
 
 |   |   |
 |---|---|
-| **UPCOMING PROJECTS**  | [Unit Project 3](../../projects/unit-projects/project-3/README.md) **Due:** April 19th  | 
+| **UPCOMING PROJECTS**  | [Unit Project 3](../../projects/unit-projects/project-03/README.md) **Due:** April 19th  | 
 
