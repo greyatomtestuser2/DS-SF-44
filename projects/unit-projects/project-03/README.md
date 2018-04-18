@@ -40,7 +40,7 @@ Your project will be assessed using the following standards:
 
 1. Refine the Data
 
-#### Rubric: [Click here for the complete rubric](./project3-rubric.md). 
+#### Rubric: [Click here for the complete rubric](./project-03-rubric.md). 
 
 Requirements for these standards will be assessed using the scale below:
 
@@ -65,10 +65,10 @@ We'll be using the same dataset as UCLA's Logistic Regression in R tutorial to e
 - 'gpa' stands for Grade Point Average
 - 'rank' is the rank of an applicant's undergraduate alma mater, with 1 being the highest and 4 as the lowest
 
-Dataset: [Admissions.csv](./assets/admissions.csv)
+Dataset: [Admissions.csv](./datasets/admissions.csv)
 
 #### Starter code
-Review the questions in the [iPython Notebook](./starter-code/project3-starter.ipynb) provided.
+Review the questions in the [iPython Notebook](./project3-starter.ipynb) provided.
 
 #### Suggestions for Getting Started
 - Review logistic regression, odds ratios and probabilities from prior lessons.
