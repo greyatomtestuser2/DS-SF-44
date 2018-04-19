@@ -249,5 +249,5 @@ For each of the following examples:
 
 ### ADDITIONAL RESOURCES
 - [Logistic Regression in Python](http://blog.yhat.com/posts/logistic-regression-and-python.html)
-- [Class weights in logistic regression](https://chrisalbon.com/machine_learning/logistic_regression/handling_imbalanced_classes_in_logistic_regression/)
-- [Building A Logistic Regression in Python](https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8)
+- [Class Weights in Logistic regression](https://chrisalbon.com/machine_learning/logistic_regression/handling_imbalanced_classes_in_logistic_regression/)
+- [Building a Logistic Regression in Python](https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8)
