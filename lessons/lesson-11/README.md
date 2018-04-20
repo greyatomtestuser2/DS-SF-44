@@ -1,7 +1,8 @@
 ---
 title: Clustering
-duration: "3:00"
-creator: Adam Jones
+duration: "1:00"
+creator: 
+    name: Adam Jones
     city: SF
 ---
 
@@ -46,7 +47,7 @@ _Unsupervised_ learning has a different goal: feature discovery.
 
 _Clustering_ is a common and fundamental example of unsupervised learning. Clustering algorithms try to find meaningful groups (i.e. clusters) within data.
 
-<a href='#intro-clustering'></a>
+<a name="intro-clustering"></a>
 ## Introduction: Clustering
 
 ![](https://i.stack.imgur.com/cIDB3.png)
@@ -56,14 +57,9 @@ It’s a common task in exploratory data mining, and a powerful technique for st
 
 Cluster analysis itself is not one specific algorithm, but the general task to be solved. It can be achieved by various algorithms that differ significantly in their notion of what constitutes a cluster and how to efficiently find them.
 
-Check: Why might data often appear in centered clusters?
+**Check:** Why might data often appear in centered clusters?
 
 > Answer: Objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).
-
-[ Here is an example of unsupervised clustering of data
-Relatively simple process, really
-3-year-old could do it, probably
-But it’s really hard to get a computer to do it properly ]
 
 Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters)
 It’s a common task in exploratory data mining,
@@ -82,7 +78,7 @@ In the figure above, we see an example of centroid-based clustering, which is a 
 
 Compared to centroid-based clustering like K-Means, density-based clustering works by identifying "dense" clusters of points, which allows it to learn clusters of arbitrary shape and identify outliers in the data.
 
-Check: Why might data often appear in density-based clusters?
+**Check:** Why might data often appear in density-based clusters?
 
 > Answer: Not all clusters are round
 - They come in all shapes and sizes (see example below)
@@ -99,18 +95,18 @@ k-Means and exercises
 DBSCAN and exercises
 building models after clustering and silhouette metric
 
-Check: How is unsupervised learning different from classification?
+**Check:** How is unsupervised learning different from classification?
 > Answer: Clustering is an _unsupervised_ learning technique and classification is a _supervised_ learning technique
 
-Check: Can you think of a real-world clustering application?
+**Check:** Can you think of a real-world clustering application?
 > Answer:
-1. Recommendation Systems e.g. Netflix genres
-2. Medical Imaging: differentiate tissues
-3. Identifying market segments
-4. Discover communities in social networks
-5. Lots of applications for genomic sequences (homologous sequences, genotypes)
-6. Earthquake epicenters
-7. Fraud detection
+> 1. Recommendation Systems e.g. Netflix genres
+> 2. Medical Imaging: differentiate tissues
+> 3. Identifying market segments
+> 4. Discover communities in social networks
+> 5. Lots of applications for genomic sequences (homologous sequences, genotypes)
+> 6. Earthquake epicenters
+> 7. Fraud detection
 
 <a href='#kmeans'></a>
 ## K-Means: Centroid clustering
@@ -164,7 +160,7 @@ Two parameters:
 - Minimum neighbors (for outliers)
   (if you put min neighbors at zero, you'd get outliers in their very own little cluster)
 
-![](../images/dbscan.png)
+![](./images/dbscan.png)
 
 These points are within epsilon, these points are within epsilon, and so on. And so you sort of induce this graph over the data. And so all of these, B is reachable from A by hops of no more than epsilon, so all of these are in the same cluster. And actually C is also reachable from B by hops in the same cluster but N is not, and so N is in a different cluster (or an outlier)
 
@@ -180,7 +176,7 @@ But k-means also has this problem, because it also tends to rely on Euclidean di
 
 [Try this awesome demo](http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
-Check: How does DBSCAN differ from k-means?
+**Check:** How does DBSCAN differ from k-means?
 > Answer: *Density based* clustering algorithm finds non linear shapes based on density.
 *K-means* follows a simple way to classify data set into a certain number of clusters (k clusters - fixed a priori). These centroids should be placed in a careful way because different locations cause different results
 
@@ -188,7 +184,7 @@ Check: How does DBSCAN differ from k-means?
 ## Hierarchical clustering
 Even though we’ve already plowed through a ton of material, I wanted to spend some time discussing another really popular form of clustering called hierarchical clustering.
 
-![](../images/dendrogram.png)
+![](./images/dendrogram.png)
 
 But before we delve into the specifics of hierarchical clustering, let's spend a little bit of time motivating why one might want to use hierarchical clustering. And one is because it allows us to avoid that pesky problem of having to fix the number of clusters ahead of time.
 Another benefit is that the dendrogram (see figure above), which captures the results of the hierarchical clustering, can allow us to very quickly visualize clusterings at different granularities without having to rerun the algorithm.
@@ -238,7 +234,7 @@ Other metrics are, of course, available:
 <a href='#guided-practice-bit'></a>
 ## Clustering, Classification, and Regression
 
-Check: How might we combine clustering and classification?
+**Check:** How might we combine clustering and classification?
 
 - We can use clustering to discover new features and then use those features for either classification or regression
 
