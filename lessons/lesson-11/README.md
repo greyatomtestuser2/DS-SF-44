@@ -108,7 +108,7 @@ building models after clustering and silhouette metric
 > 6. Earthquake epicenters
 > 7. Fraud detection
 
-<a href='#kmeans'></a>
+<a name="kmeans"></a>
 ## K-Means: Centroid clustering
 In a clustering problem, we are typically given an un-labeled data set and we would like to have an algorithm automatically group the data into coherent subsets or into clusters for us.
 
@@ -147,7 +147,7 @@ If we consider the K means algorithm more formally...
 
   Importantly, I'm going to _minimize_ this distance between Xi and the cluster centroid.
 
-<a href='#dbscan'></a>
+<a name="dbscan"></a>
 ## DBSCAN: Density-based clustering
 dbscan is another algorithm that's less well known than k-means- but has slightly nicer properties so it's good to be familiar with.
 
@@ -180,7 +180,7 @@ But k-means also has this problem, because it also tends to rely on Euclidean di
 > Answer: *Density based* clustering algorithm finds non linear shapes based on density.
 *K-means* follows a simple way to classify data set into a certain number of clusters (k clusters - fixed a priori). These centroids should be placed in a careful way because different locations cause different results
 
-<a href='#hierarchical'></a>
+<a name="hierarchical"></a>
 ## Hierarchical clustering
 Even though we’ve already plowed through a ton of material, I wanted to spend some time discussing another really popular form of clustering called hierarchical clustering.
 
@@ -202,7 +202,7 @@ labels = est.labels_
 Finally, here is a figure from the scikit learn python library website, which shows the differences between the performances of various clustering algorithms (we've only talked about two of these today- k means and DB scan).
 In these 4 challenge problems, DBScan is the only one that does the right thing in every case!
 
-<a href='#guided-practice-cm'></a>
+<a name="guided-practice-cm"></a>
 ## Clustering Metrics
 
 Evaluating the performance of a clustering algorithm is not as trivial as counting the number of errors or the precision and recall of a supervised classification algorithm. In fact, it's a much more complicated problem than scoring classification. There’s a large number of clustering algorithms and likewise for possible evaluation metrics for clustering. The choice of a suitable clustering algorithm and of a suitable measure for the evaluation depends on the clustering objects and the clustering task.
@@ -231,7 +231,7 @@ Other metrics are, of course, available:
 - Homogeneity
 - Adjusted Rand Index
 
-<a href='#guided-practice-bit'></a>
+<a name="guided-practice-bit"></a>
 ## Clustering, Classification, and Regression
 
 **Check:** How might we combine clustering and classification?
@@ -246,7 +246,7 @@ __Exercise__
 1. Using the [starter code](./code/starter-code-11.ipynb), perform a k-means clustering on the flight delay data.
 2. Use the clustering to create a classifier.
 
-<a href='#conclusion'></a>
+<a name="conclusion"></a>
 ## Conclusion
 
 - Clustering is used to discover features, e.g. segment users or assign labels (such as species)
