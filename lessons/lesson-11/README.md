@@ -1,7 +1,7 @@
 ---
 title: Clustering
 duration: "1:00"
-creator: 
+creator:
     name: Adam Jones
     city: SF
 ---
@@ -121,10 +121,10 @@ Let's say I want to take an unlabeled data set, and I want to group the data int
   The other part of K means, in the loop of K means, is the move centroid step. What we are going to do is, we are going to take the two cluster centroids and we are going to move them to the average of the points colored the same color.
   Then I'm going to do another move centroid step. And then I'm going to do another cluster assignment step, etc, etc...and we're done. And in fact if you keep running additional iterations of K means from here the cluster centroids will not change any further and the colors of the points will not change any further.
 
-If we consider the K means algorithm more formally...
-  The K means algorithm takes two inputs. One is a parameter K, which is the number of clusters you want to find in the data. For now we're going to tell the algorithm how many clusters we think there are in the data set. K means also takes as input unlabeled training data and because this is unsupervised learning, we don't have the labels Y anymore.
+#### If we consider the K means algorithm more formally...
+The K means algorithm takes two inputs. One is a parameter K, which is the number of clusters you want to find in the data. For now we're going to tell the algorithm how many clusters we think there are in the data set. K means also takes as input unlabeled training data and because this is unsupervised learning, we don't have the labels Y anymore.
 
-  To reiterate- the first step is the random initialization of k cluster centroids, which we will call mu 1, mu 2, up to mu k. Then the inner loop of k means repeats the following: For each training example, I'm going to classify it according to the nearest centroid - i.e. the cluster assignment step. Said another way, I'm going to take my Ith example Xi and I'm going to measure it's distance to each of my cluster centroids (mu1, mu2, etc.). Importantly, I'm working to _minimize_ this distance between Xi and the cluster centroid. Then, I'm going to move the location of each cluster to the average of the points assigned to that cluster.
+To reiterate- the first step is the random initialization of k cluster centroids, which we will call mu 1, mu 2, up to mu k. Then the inner loop of k means repeats the following: For each training example, I'm going to classify it according to the nearest centroid - i.e. the cluster assignment step. Said another way, I'm going to take my Ith example Xi and I'm going to measure it's distance to each of my cluster centroids (mu1, mu2, etc.). Importantly, I'm working to _minimize_ this distance between Xi and the cluster centroid. Then, I'm going to move the location of each cluster to the average of the points assigned to that cluster.
 
 <a name="dbscan"></a>
 ## DBSCAN: Density-based clustering
@@ -147,8 +147,7 @@ All right, so there are some __advantages__:
   There is no dependence on a fixed number of starting to clusters like k-means has. You sort of compute this from any of the vertices in the graph and start making hops.
 
 Some __disadvantages__:
-It's sensitive to Euclidean distance measure problems. And if you remember a few lectures ago, I made a point to say that whenever you see Euclidean distance, you should be thinking about there's one big major problem with it, which is the curse of dimensionality. So as you get a very, very large number of dimensions, Euclidean distance starts to become somewhat meaningless- it starts to get bigger, and bigger, and bigger, and the data sets start to get sparser, and sparser, and sparser.
-But k-means also has this problem, because it also tends to rely on Euclidean distance. And you actually can define other distance measure and adapt k-means and DBSCAN both to use them.
+It's sensitive to Euclidean distance measure problems. And if you remember a few lectures ago, I made a point to say that whenever you see Euclidean distance, you should be thinking about there's one big major problem with it, which is the curse of dimensionality. So as you get a very, very large number of dimensions, Euclidean distance starts to become somewhat meaningless- it starts to get bigger, and bigger, and bigger, and the data sets start to get sparser, and sparser, and sparser. But k-means also has this problem, because it also tends to rely on Euclidean distance. And you actually can define other distance measure and adapt k-means and DBSCAN both to use them.
 
 [Try this awesome demo](http://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
@@ -163,8 +162,10 @@ Even though we’ve already plowed through a ton of material, I wanted to spend 
 ![](./images/dendrogram.png)
 
 But before we delve into the specifics of hierarchical clustering, let's spend a little bit of time motivating why one might want to use hierarchical clustering. And one is because it allows us to avoid that pesky problem of having to fix the number of clusters ahead of time.
+
 Another benefit is that the dendrogram (see figure above), which captures the results of the hierarchical clustering, can allow us to very quickly visualize clusterings at different granularities without having to rerun the algorithm.
 Additionally, hierarchical clustering typically allows us to specify any distance metric we want for defining distances between points. Whereas, with k-means for example, we were implicitly specifying you Euclidean distance as our distance metric.
+
 And finally, hierarchical clustering can allow us to capture more complex shapes to our clusters than the types of things that we saw with k-means or our mixture models. So for example, in k-means, remember that we were implicitly assuming spherically symmetric clusters, and these can both be rather restrictive assumptions. But through hierarchical clustering, we can capture more intricate shapes of distributions.
 
 We’ll explore hierarchical models in much greater detail when we get to decision trees in a few weeks. So, for now we can use sklearn and treat the model like a black box and fit it like so:
@@ -175,8 +176,7 @@ est.fit(X)
 labels = est.labels_
 ```
 ![](http://scikit-learn.org/0.18/_images/sphx_glr_plot_cluster_comparison_001.png)
-Finally, here is a figure from the scikit learn python library website, which shows the differences between the performances of various clustering algorithms (we've only talked about two of these models in class so far- k means and DB scan).
-In these 4 challenge problems, DBScan is the only one that does the right thing in every case!
+Finally, above is a figure from the scikit learn python library website, which shows the differences between the performances of various clustering algorithms (we've only talked about two of these models in class so far- k means and DB scan). In these 4 challenge problems, DBScan is the only one that does the right thing in every case!
 
 <a name="guided-practice-cm"></a>
 ## Clustering Metrics
