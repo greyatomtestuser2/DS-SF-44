@@ -168,15 +168,15 @@ Additionally, hierarchical clustering typically allows us to specify any distanc
 
 And finally, hierarchical clustering can allow us to capture more complex shapes to our clusters than the types of things that we saw with k-means or our mixture models. So for example, in k-means, remember that we were implicitly assuming spherically symmetric clusters, and these can both be rather restrictive assumptions. But through hierarchical clustering, we can capture more intricate shapes of distributions.
 
-We’ll explore hierarchical models in much greater detail when we get to decision trees in a few weeks. So, for now we can use sklearn and treat the model like a black box and fit it like so:
+We’ll explore hierarchical models in much greater detail when we get to decision trees in a few weeks. So, for now we can use sklearn and treat the model like a black box and fit it in the following way:
 ```python
 from sklearn.cluster import AgglomerativeClustering
 est = AgglomerativeClustering(n_clusters=4)
 est.fit(X)
-labels = est.labels_
 ```
+
+Finally, below is a figure from the scikit learn python library website, which shows the differences between the performances of various clustering algorithms (we've only talked about two of these models in class so far- k means and DB scan). In these 4 challenge problems, DBScan is the only one that does the right thing in every case!
 ![](http://scikit-learn.org/0.18/_images/sphx_glr_plot_cluster_comparison_001.png)
-Finally, above is a figure from the scikit learn python library website, which shows the differences between the performances of various clustering algorithms (we've only talked about two of these models in class so far- k means and DB scan). In these 4 challenge problems, DBScan is the only one that does the right thing in every case!
 
 <a name="guided-practice-cm"></a>
 ## Clustering Metrics
