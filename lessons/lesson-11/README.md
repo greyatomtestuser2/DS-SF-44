@@ -187,6 +187,8 @@ One of the more popular is the Silhouette Coefficient:
 - First we measure the average distance between our data point and the points in its own cluster (*distance a*)
 - Then, we measure the average distance between our data point and the points in the closest cluster (*distance b*)
 
+![](./images/silhouette.png)
+
 If our data point is well grounded in its cluster, b needs to be large and a needs to be small, so that the difference between them (b - a), is as large as possible. To normalize this score, we have to divide it by the maximum of a and b.
 
 The score is bounded between -1 for incorrect clustering and +1 for highly dense clustering. The silhouette score ranges for a point in the middle of a cluster will be quite high. Scores around zero indicate overlapping clusters.
