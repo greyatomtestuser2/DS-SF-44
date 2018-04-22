@@ -27,7 +27,7 @@ Tuesday | Thursday | HW
 4/3: [Data Science Toolkit](./lessons/lesson-05/README.md) | 4/5: [Introduction to Linear Regression](./lessons/lesson-06/README.md) | HW 2 Due & HW 3 Assigned (Tues)
 4/10: [Evaluating Model Fit](./lessons/lesson-07/README.md) | 4/12: [Intro to classification](./lessons/lesson-08/README.md) | Final Project Pt. 1 Due & Final Project Pt. 2 Assigned (Th)
 4/17: [Intro to Logistic Regression](./lessons/lesson-09/README.md) | 4/19: [Communicating the Results of Logistic Regression](./lessons/lesson-10/README.md)  | HW 4 Assigned (Tues) & HW 3 Due (Th)
-4/24: Clustering  | 4/26: Decision Trees | Project Proposal due & HW 4 Due (Th)
+4/24: [Clustering](./lessons/lesson-11/README.md) | 4/26: Decision Trees | Project Proposal due & HW 4 Due (Th)
 5/1: NLP with Classification | 5/3: Latent Variable Models | Final Project Pt. 2 Due & Final Project Pt. 3 Assigned (Th)
 5/8: Time-series Data | 5/10: Modeling Time-series Data | Final Project Pt. 3 Due & Final Project Pt. 4 Assigned (Th)
 5/15: Databases | 5/17: Next Steps with Data Science | Final Project Pt. 4 Due & Final Project Pt. 5 Assigned (Th)
