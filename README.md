@@ -11,8 +11,8 @@ Tues/Thursday: 6:30pm - 9:30pm
 
 **Office hours:** 
 
-Tues: 5:30pm - 6:30pm (right before class)
-Additional hours TBD
+Thurs: 5:30pm - 6:30pm (right before class)
+Additional hours available upon request.
 
 All courses / in-person office hours will be held at GA, 225 Bush Street
 
