@@ -308,9 +308,9 @@ The answer to each of these is problem dependent, but all of them will affect ou
 > - Classification using the frequency of each word as a feature for training a classifier from text is known as bag-of-words classification
 > - The bag-of-words model is commonly used in methods of document classification (e.g. spam filtering)
 > - Pros: simple to implement and understand
-> -- Often successful in problems such as language modeling and document classification
+>   - Often successful in problems such as language modeling and document classification
 > - Cons: It can fail badly depending on specific case
-> -- example: Toy Dog != Dog Toy
+>   - example: Toy Dog != Dog Toy
 
 ***
 
