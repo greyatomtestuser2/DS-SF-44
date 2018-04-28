@@ -29,9 +29,9 @@ DS | Lesson 13
 
   ```python
     conda install spacy
-    python -m spacy download en*
+    python -m spacy download en
   ```
-* may require admin privileges
+\* may require admin privileges
 
 
 ### LESSON GUIDE
@@ -80,8 +80,8 @@ _The L.A. Lakers won the NBA championship in 2010, defeating the Boston Celtics.
 
 To perform a proper analysis, we need to be able to identify that:
 
-- The periods in _L.A._ don't mark the end of a sentence but an abbreviation.
-- _L.A. Lakers_ and _Boston Celtics_ are one concept.
+- The periods in _L.A._ don't mark the end of a sentence but an abbreviation
+- _L.A. Lakers_ and _Boston Celtics_ are one concept
 - _"2010"_ is the word used, not _"2010,"_
 
 
@@ -104,6 +104,12 @@ There are many well-known stemmer functions that can import many of these common
 For example, we can identify that "bad" and "badly" are similar using stemming.  However, this heuristic won't be able to tell that "better" and "best" are similar. That's where lemmatization comes in handy.
 
 **Check:** Can you think of other problem words or phrases that might require these tools?
+
+> **A**:
+Examples:
+Ambul - means move or walk. Amble, ambulate   
+Derm - means skin. Dermatology, epidermis   
+Sect - means cut. Intersect, section   
 
 ### Parsing and Tagging
 
@@ -141,16 +147,16 @@ Let's start by attempting to process some of the titles.
 
 First, we'll load our NLP toolkit by specifying the language:
 
-    ```python
-    import spacy
-    nlp_toolkit = spacy.load('en')
-    ```
+```python
+import spacy
+nlp_toolkit = spacy.load('en')
+```
 
-  This toolkit has 3 pre-processing engines:
+This toolkit has 3 pre-processing engines:
 
-    - a tokenizer: to identify the word tokens
-    - a tagger: to identify the concepts described by the words
-    - a parser: to identify the phrases and links between the different words
+- a **tokenizer**: to identify the word tokens
+- a **tagger**: to identify the concepts described by the words
+- a **parser**: to identify the phrases and links between the different words
 
 Each of these pre-processing tasks can be overridden with a specific tool you have (you may want a specialized tokenizer that looks for stock quotes or Instagram posts instead of news headlines). You could also write your own tokenizer or tagger for those tasks and use them in place of the default ones `spacy` provides. For now, we'll use the defaults.
 
@@ -173,7 +179,10 @@ The first title is:
     print("\t Parent of this word: {}".format(word.head.lemma_))
 ```
 
-The `nlp_toolkit` here runs each of the individual pre-processing tools: first it tokenizes the sentence, then it identifies the components, and finally it builds an interpretation of the sentence.
+The `nlp_toolkit` here runs each of the individual pre-processing tools: 
+- first it tokenizes the sentence, 
+- then it identifies the components, 
+- and finally it builds an interpretation of the sentence.
 
 Output:
 
@@ -242,7 +251,7 @@ data[data['references_organization']][['title']].head()
 
 **Check:** Write a function to identify titles that have mention an organization (ORG) and person (PERSON).
 
-> **A:** 
+> **Solution:** 
 ```python
 def references_organization_and_person(title):
     parsed = nlp_toolkit(title)
@@ -284,24 +293,24 @@ The answer to each of these is problem dependent, but all of them will affect ou
 **Check:** What do you think? Does word order matter? Case? Punctuation? Discuss and explain your reasoning.
 
 > **A:** 
-- [ ] Yes, order of words may matter.
-  - This is especially true when trying to predict positive or negative sentiment.
-- [ ] Yes, punctuation may matter.
-  - In sentiment prediction, saying "amazing!!!" may result in a different tone than "amazing."
-- [ ] Yes, letter case may matter.
-  - Upper-case words or phrases are usually proper nouns. For instance, "Python" is more likely to refer to a programming language, while "python" may refer to either the programming language or a type of snake.
+> - Yes, order of words may matter.  
+>   - This is especially true when trying to predict positive or negative sentiment.  
+> - Yes, punctuation may matter.  
+>   - In sentiment prediction, saying "amazing!!!" may result in a different tone than "amazing."  
+> - Yes, letter case may matter.  
+>   - Upper-case words or phrases are usually proper nouns. For instance, "Python" is more likely to refer to a programming language, while "python" may refer to either the programming language or a type of snake.
 
-Note: Classification using words from the text as features is known as **bag-of-words** classification.
+**Note**: Classification using words from the text as features is known as **bag-of-words** classification.
 
 **Check:** What is "bag-of-words" classification stand for and when should it be used? What are some benefits to this approach?
 
 > **A:** 
-- Classification using the frequency of each word as a feature for training a classifier from text is known as bag-of-words classification
-- The bag-of-words model is commonly used in methods of document classification (e.g. spam filtering)
-- Pros: simple to implement and understand
--- Often successful in problems such as language modeling and document classification
-- Cons: It can fail badly depending on specific case
--- example: Toy Dog != Dog Toy
+> - Classification using the frequency of each word as a feature for training a classifier from text is known as bag-of-words classification
+> - The bag-of-words model is commonly used in methods of document classification (e.g. spam filtering)
+> - Pros: simple to implement and understand
+> -- Often successful in problems such as language modeling and document classification
+> - Cons: It can fail badly depending on specific case
+> -- example: Toy Dog != Dog Toy
 
 ***
 
