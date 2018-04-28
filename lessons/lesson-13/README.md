@@ -24,14 +24,16 @@ DS | Lesson 13
 *Before this lesson, you should already be able to:*
 
 - Experience with scikit-learn classifiers, specifically Random Forests and Decision trees
-- Install `spacy` with `conda install spacy` (or use pip)
-- Run the `spacy` download data command
-
-  ```python
+- Install `spacy` with
+    ```python
     conda install spacy
+    ``` 
+    (or use _pip_)
+- Run the `spacy` download data command*
+  ```python
     python -m spacy download en
   ```
-\* may require admin privileges
+  \* may require admin privileges
 
 
 ### LESSON GUIDE
