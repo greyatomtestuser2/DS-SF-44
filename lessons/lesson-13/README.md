@@ -21,19 +21,17 @@ DS | Lesson 13
 - Demonstrate how to classify text or documents using `scikit-learn`
 
 ### STUDENT PRE-WORK
-*Before this lesson, you should already be able to:*
+*Before this lesson, you should already have:*
 
 - Experience with scikit-learn classifiers, specifically Random Forests and Decision trees
-- Install `spacy` with
+- Install `spacy` with conda (or use _pip_)
     ```python
     conda install spacy
     ``` 
-    (or use _pip_)
-- Run the `spacy` download data command*
-  ```python
+- Run the `spacy` download data command (_may_ require admin privileges)
+    ```python
     python -m spacy download en
-  ```
-  \* may require admin privileges
+    ```
 
 
 ### LESSON GUIDE
