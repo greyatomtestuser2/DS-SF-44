@@ -34,7 +34,7 @@ You'll get the opportunity to get immediate feedback and guidance in order to he
 
 - **Submission:**	
     * Submit presentation to instructor via email __before class__
-    * Present materials in class
+    * Present materials in class (_Lesson 8_)
 
 ---
 
