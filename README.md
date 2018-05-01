@@ -41,4 +41,4 @@ Tuesday | Thursday | HW
 ### Resources
 * [PEP 8 - Style Guide for Python](http://www.python.org/dev/peps/pep-0008)
 * [Learn How to Think Like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/toc.html#t-o-c)
-
+* [Programming cheat sheets](https://github.com/ga-students/DS-SF-44/tree/master/student-resources/cheat-sheets)
