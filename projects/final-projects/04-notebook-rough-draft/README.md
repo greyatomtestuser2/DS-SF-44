@@ -32,7 +32,7 @@ Look at how your model performs compared to a dummy model, and articulate the be
     - Many modeling approaches are all about fine-tuning the algorithm parameters and trying to find a specific value. Show how you optimized for this value, and the costs/benefits of doing so.
 
 - **Submission:**	
-  - TBD by instructor.
+  - Submit materials to the instructor before **Lesson 18**
 
 ---
 
