@@ -65,7 +65,8 @@ A 10 to 20 slide deck consisting of:
 
 **Submission:**	
 
-  - Final format and submission location are TBD by instructor.
+  - Submit presentation to instructor via email before class
+  - Present materials in class (_Last class - Lesson 20_)
 
 ---
 
