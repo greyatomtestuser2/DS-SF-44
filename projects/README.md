@@ -41,10 +41,6 @@ Each project includes objectives, requirements, starter-code, rubric, and sugges
 | **Unit 3** | [Final Project, pt 5](./final-projects/05-presentation/README.md) | [Assigned Lesson 18](../lessons/lesson-18/README.md) | Due Lesson 20 |
 
 
-
-> We've also provided you with a [visual timeline for project due dates](../student-resources/ds-project-due-dates.pdf).
-
-
 ---
 
 ## Project Completion
