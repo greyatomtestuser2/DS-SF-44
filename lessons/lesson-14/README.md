@@ -292,7 +292,7 @@ For example, we can replace columns ['_ is a city', '_ is a capital', 'I flew in
 
 `word2vec` was originally presented as a deep learning model, but is more closely related to standard dimensionality reduction techniques. A common feature of `word2vec` is being able to ask which words are similar to each other? If we have data on multiple languages, a system like word2vec could also be used for translation.
 
-![Word2Vec translation](./assets/images/word2vec-translation.png)
+![Word2Vec translation](./images/word2vec-translation.png)
 
 > **Check:** After reviewing the anologies, brainstorm some word vector math. For example, consider the prototypical example of 'King' - 'Man' = 'Queen'
 
@@ -331,7 +331,7 @@ It can easily identify words related to those from this dataset (remember, most 
 
 In this exercise, we will compare some of the classical NLP tools from the last class with these more modern latent variable techniques. We will do this by comparing information extraction techniques on Twitter using the two methods.
 
-> Instructor Note: If you want students to capture their own collection of tweets using the Twitter API,[ use the following instructions](./code/twitter-instructions.md). It requires some setup and a Twitter account.
+>  Note: If you want to capture your own collection of tweets using the Twitter API,[ use the following instructions](./code/twitter-instructions.md). It requires some setup and a Twitter account.
 
 > If not - you can use a [pre-existing file of captured tweets](./code/datasets/captured-tweets.txt) relating tech companies and Middle Eastern companies.
 
