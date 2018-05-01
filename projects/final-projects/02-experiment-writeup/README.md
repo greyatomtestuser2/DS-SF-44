@@ -28,7 +28,7 @@ Remember, completing this task earlier will give you more chances to iterate and
     - "Convert" your goal metric from a statistical one (like Mean Squared Error) and tie it to something non-data people can understand, like a cost/benefit analysis, etc.
 
 - **Submission:**	 
-  - Submit to the instructor before *Lesson 14*
+  - Submit materials to the instructor before **Lesson 14**
 
 ---
 
