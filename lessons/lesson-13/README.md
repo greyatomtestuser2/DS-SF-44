@@ -249,7 +249,7 @@ data['references_organization'] = data['title'].fillna('').map(references_organi
 data[data['references_organization']][['title']].head()
 ```
 
-**Check:** Write a function to identify titles that have mention an organization (ORG) and person (PERSON).
+**Check:** Write a function to identify titles that mention an organization (ORG) and person (PERSON).
 
 > **Solution:** 
 ```python
