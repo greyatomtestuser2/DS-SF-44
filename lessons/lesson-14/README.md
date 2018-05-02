@@ -120,8 +120,8 @@ What this 'model' of text is assuming is that each document is some _mixture_ of
 
 _Latent Dirichlet Allocation_ is a model that assumes this is the way text is generated and then attempts to learn two things:
 
-    1. What is the _word distribution_ of each topic?
-    2. What is the _topic distribution_ of each document?
+1. What is the _word distribution_ of each topic?
+2. What is the _topic distribution_ of each document?
 
 The _word distribution_ is a multinomial distribution for each topic representing what words are most likely from that topic.
 
@@ -152,7 +152,7 @@ For each topic and document pair, we learn some `P ( topic | document) `
 Topic models are useful for organizing a collection of documents and uncovering the main underlying concepts.
 
 There are many variants as well, that attempt to incorporate more structure into the 'model'
-
+ 
  - Supervised Topic Models
     - Guide the process with pre-decided topics
  - Position-dependent topic models
@@ -381,7 +381,7 @@ Now we'd like to do a few things:
 
     a. Write a function that can take a sentence parsed by `spacy` and identify if it mentions a company named 'Google'. Remember, `spacy` can find entities and code them as `ORG` if they are a company.
 
-        i. **BONUS**: Make this function work for any company
+    - **BONUS**: Make this function work for any company
 
     b. Write a function that can take a sentence parsed by `spacy` and return the verbs of the sentence (preferably lemmatized)
 
@@ -395,21 +395,21 @@ Now we'd like to do a few things:
 
     a. First take the collection of tweets and tokenize them using `spacy`
 
-        i. Think about how this should be done. Should you only use upper-case or lower-case? Should you remove punctuations or symbols?
+    - Think about how this should be done. Should you only use upper-case or lower-case? Should you remove punctuations or symbols?
 
     b. Build a `word2vec` model
 
-        i. Test the window size as well - this is how many surrounding words need to be used to model a word. What do you think is appropriate for Twitter?
+    - Test the window size as well - this is how many surrounding words need to be used to model a word. What do you think is appropriate for Twitter?
 
     c. Test your word2vec model with a few similarity functions.
 
-        i. Find words similar to 'Syria'
+    - Find words similar to 'Syria'
 
-        ii. Find words similar to 'war'
+    - Find words similar to 'war'
 
-        iii. Find words similar to "Iran"
+    - Find words similar to "Iran"
 
-        iv. Find words similar to 'Verizon'
+    - Find words similar to 'Verizon'
 
     d. Adjust the choices in (b) and (c) as necessary
 
