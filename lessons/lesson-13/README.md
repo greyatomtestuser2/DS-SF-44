@@ -30,7 +30,8 @@ DS | Lesson 13
     ``` 
 - Run the `spacy` download data command (_may_ require admin privileges)
     ```python
-    python -m spacy download en
+    python -m spacy download en (Python 2)
+    python -m spacy.en.download (Python 3)
     ```
 
 
