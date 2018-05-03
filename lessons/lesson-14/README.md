@@ -13,7 +13,7 @@ DS | Lesson 14
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 
-- Define and identify _latent_ variables 
+- Define and identify _latent_ variables
 - Explain the uses of _latent variables_ in language processing
 - Apply the _word2vec_ and _LDA_ algorithms of `gensim`
 
@@ -152,7 +152,7 @@ For each topic and document pair, we learn some `P ( topic | document) `
 Topic models are useful for organizing a collection of documents and uncovering the main underlying concepts.
 
 There are many variants as well, that attempt to incorporate more structure into the 'model'
- 
+
  - Supervised Topic Models
     - Guide the process with pre-decided topics
  - Position-dependent topic models
@@ -214,13 +214,11 @@ We can evaluate this by viewing the top words for each topic:
 `gensim` has a `show_topics` function for this.
 
 ```python
+Lda = gensim.models.ldamodel.LdaModel
 
-num_topics = 25
-num_words_per_topic = 5
-for ti, topic in enumerate(lda.show_topics(num_topics = num_topics, num_words_per_topic = n_words_per_topic)):
-    print("Topic: %d" % (ti))
-    print (topic)
-    print()
+ldamodel = Lda(doc_term_matrix, num_topics=3, id2word = dictionary, passes=50)
+
+ldamodel.show_topics(num_topics=3, num_words=3)
 ```
 
 While some of the concepts may not make sense, some may represent clear concepts:
