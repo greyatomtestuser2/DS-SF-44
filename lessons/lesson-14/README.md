@@ -214,8 +214,10 @@ We can evaluate this by viewing the top words for each topic:
 `gensim` has a `show_topics` function for this.
 
 ```python
+# Creating the object for LDA model using gensim library
 Lda = gensim.models.ldamodel.LdaModel
 
+# Running and Training LDA model on the document term matrix
 ldamodel = Lda(doc_term_matrix, num_topics=3, id2word = dictionary, passes=50)
 
 ldamodel.show_topics(num_topics=3, num_words=3)
