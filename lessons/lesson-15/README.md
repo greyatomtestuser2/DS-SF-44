@@ -148,7 +148,7 @@ As with previous datasets, we can use Pandas to load our data:
 ```python
 import pandas as pd
 
-data = pd.read_csv('./code/datasets/rossmann.csv', skipinitialspace=True)
+data = pd.read_csv('./datasets/rossmann.csv', skipinitialspace=True)
 
 ```
 
