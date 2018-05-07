@@ -235,7 +235,7 @@ store1_open_data = store1_data[store1_data.Open==1]
 store1_open_data[['Sales']].plot()
 ```
 
-**Check** Compute the autocorrelation of Sales in Store 1 for lag 1 and 2. Will we be able to use a predictive model - particularly an autoregressive one?
+**Check**: Compute the autocorrelation of Sales in Store 1 for lag 1 and 2. Will we be able to use a predictive model - particularly an autoregressive one?
 
 ```python
 store1_data.Sales.autocorr(lag=1) # -0.12
