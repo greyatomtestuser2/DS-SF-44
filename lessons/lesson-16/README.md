@@ -295,7 +295,7 @@ model = ARMA(store1_sales_data, (1, 0)).fit()
 model.summary()
 ```
 
-By passing the `(1, 0)` in the second argument, we are fitting an ARMA model as ARMA(p=1, q=1). Remember, an ARMA(p, q) model is AR(p) + MA(q). This means that an ARMA(1, 0) is the same as an AR(1) model.
+By passing the `(1, 0)` in the second argument, we are fitting an ARMA model as ARMA(p=1, q=0). Remember, an ARMA(p, q) model is AR(p) + MA(q). This means that an ARMA(1, 0) is the same as an AR(1) model.
 
 In this AR(1) model we learn an intercept value, or base sales values. Additionally, we learn a coefficient that tells us how to include the last sales values. In this case, we take the intercept of ~4700 and add in the previous months sales * 0.68.
 
