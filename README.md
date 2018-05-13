@@ -30,7 +30,7 @@ Tuesday | Thursday | HW
 4/24: [Clustering](./lessons/lesson-11/README.md) | 4/26: [Decision Trees](./lessons/lesson-12/README.md) | Project Proposal due & HW 4 Due (Th)
 5/1: [NLP with Classification](./lessons/lesson-13/README.md) | 5/3: [Topic Modeling](./lessons/lesson-14/README.md) | Final Project Pt. 2 Due & Final Project Pt. 3 Assigned (Th)
 5/8: [Time-series Data](./lessons/lesson-15/README.md) | 5/10: [Modeling Time-series Data](./lessons/lesson-16/README.md) | Final Project Pt. 3 Due & Final Project Pt. 4 Assigned (Th)
-5/15: Databases | 5/17: Next Steps with Data Science | Final Project Pt. 4 Due & Final Project Pt. 5 Assigned (Th)
+5/15: [Databases](./lessons/lesson-17/README.md) | 5/17: [Next Steps with Data Science](./lessons/lesson-18/README.md) | Final Project Pt. 4 Due & Final Project Pt. 5 Assigned (Th)
 5/22: Neural Networks | 5/24: Final Presentations!!! | Final Project Pt. 5 Due (Th)
 
 ### Installation and Setup
