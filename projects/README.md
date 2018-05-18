@@ -47,7 +47,7 @@ Each project includes objectives, requirements, starter-code, rubric, and sugges
 
 In order to pass this course, General Assembly students **must**:
 
-- Complete and submit 80% of all course homework assignments.
+- Complete and submit 75% of all course homework assignments.
 - Complete and submit the final project, including all 5 milestones.
 
 ### Grading & Using GitHub in the Classroom
