@@ -207,7 +207,7 @@ Example:
 - Task: Identify fraudulent transactions
 
 1. Maintenance: User spending likely changes as their income increases. Expensive purchases that may have been expensive (and fraudulent) in previous year may not be this year.
-2. Intervention: Block fraud transactions. Another common case of feedback is when the intervention is adversarial. As you find ways to block fraud transactions, they are try to hide their actions better. Suppose we identify 10 common IPs used for fraudulent transaction, if we block those IPs, the fraudsters will likely change.
+2. Intervention: Block fraud transactions. Another common case of feedback is when the intervention is adversarial. As you find ways to block fraud transactions, they try to hide their actions better. Suppose we identify 10 common IPs used for fraudulent transaction, if we block those IPs, the fraudsters will likely change.
 3. Ethical considerations: Should we immediately block transactions when we believe they are fraudulent or let them occur and review later? Is it more important to have many false positive (incorrectly blocked purchases) or false negatives (missed fraudulent transactions)
 
 
