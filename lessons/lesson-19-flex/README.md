@@ -2,8 +2,8 @@
 title: Neural Networks
 duration: "2:00"
 creator:
-    name: Marc Harper
-    city: LA
+    name: Adam Jones
+    city: SF
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Neural Networks
@@ -28,9 +28,9 @@ We all use computers everyday, but sometimes they fail us and this upsets a lot 
 
 Despite everything computers today can do they're pretty simple: they take some inputs, perform some calculations, and produce some outputs. We’ve known for a while that the tiniest components of your brain that makes it think and do smart things are special cells called neurons. Your brain has billions of these things and they talk to each other using electrical impulses. Essentially, they are what’s responsible for making your brain think and have a consciousness.
 
-![](https://en.wikipedia.org/wiki/Neuron)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Blausen_0657_MultipolarNeuron.png/1280px-Blausen_0657_MultipolarNeuron.png)
 
-	So, some computer scientists had the idea that we can make a computer that is modeled after this system of neuronal connections they called their idea a neural network. The idea is that we have nodes that have some connections between them. This is similar to the neurons in your brain and the synapses they form- To get a neuron there to do something we trigger a node with some input and that node in turn triggers the nodes it is connected to.
+So, some computer scientists had the idea that we can make a computer that is modeled after this system of neuronal connections they called their idea a neural network. The idea is that we have nodes that have some connections between them. This is similar to the neurons in your brain and the synapses they form- To get a neuron there to do something we trigger a node with some input and that node in turn triggers the nodes it is connected to.
 
 Since we're used to the computer model of computation we'd like to have well-defined input and output nodes. We’d also like to have directed connections so that we know which way information is going. Some connections should be more important than others, and this is dictated by values known as weights.
 
@@ -50,10 +50,11 @@ The idea is to determine which nodes are most to blame for the error in the outp
 
 So can neural networks make computers think like humans? Not exactly but they can still be very useful!
 
-**Examples**:
-[Image Colorization](http://tinyclouds.org/colorize/)
-[Character Encoding](http://yann.lecun.com/exdb/publis/pdf/jackel-95.pdf)
-[Hotdog Detection](https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3)
+**Examples**:    
+- [Image Colorization](http://tinyclouds.org/colorize/)
+- [Character Encoding](http://yann.lecun.com/exdb/publis/pdf/jackel-95.pdf)
+- [Hotdog Detection](https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3)
+
 ---
 
 ### BEFORE NEXT CLASS
