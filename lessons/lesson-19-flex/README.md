@@ -51,8 +51,9 @@ The idea is to determine which nodes are most to blame for the error in the outp
 So can neural networks make computers think like humans? Not exactly but they can still be very useful!
 
 **Examples**:    
-- [Image Colorization](http://tinyclouds.org/colorize/)
 - [Character Encoding](http://yann.lecun.com/exdb/publis/pdf/jackel-95.pdf)
+- [Medical Images](https://www.scientificamerican.com/article/deep-learning-sharpens-views-of-cells-and-genes/?utm_source=twitter&utm_medium=social&utm_campaign=sa-editorial-social&utm_content=&utm_term=health_&sf178179792=1)
+- [Image Colorization](http://tinyclouds.org/colorize/)
 - [Hotdog Detection](https://medium.com/@timanglade/how-hbos-silicon-valley-built-not-hotdog-with-mobile-tensorflow-keras-react-native-ef03260747f3)
 
 ---
